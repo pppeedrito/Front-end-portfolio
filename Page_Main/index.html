@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="\css\main.css">
     <title>Document</title>
 </head>
 
@@ -12,58 +12,50 @@
 <nav id="navbar">
     <ul class="nav-list">
         <li>
-            <a href="">About</a>
+            <a href="#section-first">About</a>
         </li>
         <li>
-            <a href="">Work</a>
+            <a href="#section-layouts">Work</a>
         </li>
         <li>
-            <a href="">Contact</a>
+            <a href="#section-contacts  ">Contact</a>
         </li>
     </ul>
 </nav>
 
 <!-- Comenzemos el cuerpo de la pag -->
-<section class="section-first">
+<section id="section-first" class="section-first">
 <H1>Hey I am Pedro</H1>
 <p> a web developer</p>
 </section>
  
 <!-- Comienzo de los proyectos webs -->
-<section>
-<h2>These  are some of my projects </h2>
+<section id="section-layouts" class="section-layouts">
+<h2 class="section-header-layouts">These  are some of my projects </h2>
 
-<div>
-    <a href="">
-        <img src="" alt="">
-        <p>Tribute page</p>
+<div class="grid-layouts">
+    <a class= 'grid-enlace'href="">
+        <img class="grid-image"  src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" alt="project">
+        <p class="grid-text">Tribute page</p>
     </a>
-</div>
-
-<div>
-    <a href="">
-        <img src="" alt="">
-        <p>Products page</p>
+    <a class= "grid-enlace" href="">
+        <img class="grid-image"  src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" alt="project">
+        <p class="grid-text">Products page</p>
     </a>
-</div>
-    
-<div>
-    <a href="">
-        <img src="" alt="">
-        <p>Documentation page</p>
+    <a class= "grid-enlace" href="">
+        <img class="grid-image"  src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" alt="project">
+        <p class="grid-text">Documentation page</p>
     </a>
-</div>
-<div>
-    <a href="">
-        <img src="" alt="">
-        <p>Form page</p>
-    </a>
+    <a class= "grid-enlace" href="">
+        <img class="grid-image"  src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" alt="project">
+        <p class="grid-text">Form page</p>
+    </a>    
 </div>
 
-<a href="">Show all <i class=""></i></a>
+<a href="" class="btn-show-all">Show all <i class=""></i></a>
 </section>
 <!-- sección contactanos -->
-<section>
+<section id="section-contacts" class="section-contacts">
 <div>
 <h2>Let's work together...</h2>
 <p>How do you take your coffe?</p>
